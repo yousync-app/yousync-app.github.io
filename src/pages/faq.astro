@@ -1,0 +1,99 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="FAQ - YouSync">
+  <main class="min-h-screen bg-gradient-to-br from-gray-900 to-black text-white py-20">
+    <div class="container mx-auto px-4 max-w-4xl">
+      <!-- Navigation -->
+      <nav class="mb-12">
+        <a href="/" class="text-white/80 hover:text-white transition flex items-center gap-2">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L4.414 9H17a1 1 0 110 2H4.414l5.293 5.293a1 1 0 010 1.414z" clip-rule="evenodd" />
+          </svg>
+          Retour à l'accueil
+        </a>
+      </nav>
+
+      <h1 class="text-4xl font-bold mb-12 text-center">Foire Aux Questions</h1>
+
+      <div class="space-y-8">
+        <!-- Installation -->
+        <section class="bg-white/5 p-8 rounded-xl">
+          <h2 class="text-2xl font-semibold mb-4">Comment installer YouSync ?</h2>
+          <ol class="space-y-4 text-gray-300">
+            <li>1. Téléchargez la dernière version de YouSync depuis <a href="https://github.com/yourusername/yousync/releases/latest" class="text-primary hover:underline">notre page de téléchargement</a>.</li>
+            <li>2. Lancez l'exécutable YouSyncInstaller.exe.</li>
+            <li>3. Note de sécurité : Windows Defender pourrait afficher un avertissement car l'application n'est pas signée. Ceci est normal pour les applications open source. Vous pouvez vérifier l'intégralité du code source sur <a href="https://github.com/yourusername/yousync" class="text-primary hover:underline">notre GitHub</a>.</li>
+            <li>4. Une fois l'installation terminée, lancez YouSync depuis le menu démarrer.</li>
+            <li>5. C'est prêt ! Vous pouvez maintenant commencer à synchroniser vos playlists.</li>
+          </ol>
+        </section>
+
+        <!-- Ajouter une playlist -->
+        <section class="bg-white/5 p-8 rounded-xl">
+          <h2 class="text-2xl font-semibold mb-4">Comment ajouter une playlist ?</h2>
+          <ol class="space-y-4 text-gray-300">
+            <li>1. Accédez à la section "Home" de l'application.</li>
+            <li>2. Sélectionnez la plateforme de streaming de votre choix (YouTube, Spotify, Apple Music).</li>
+            <li>3. Collez l'URL de votre playlist dans le champ prévu à cet effet.</li>
+            <li>4. Cliquez sur l'icône de dossier pour sélectionner l'emplacement de sauvegarde sur votre ordinateur.</li>
+            <li>5. Cliquez sur "Save" pour enregistrer la configuration.</li>
+            <li>6. Votre playlist apparaîtra désormais dans le menu "Playlists".</li>
+          </ol>
+        </section>
+
+        <!-- Synchroniser une playlist -->
+        <section class="bg-white/5 p-8 rounded-xl">
+          <h2 class="text-2xl font-semibold mb-4">Comment synchroniser une playlist ?</h2>
+          <p class="text-gray-300">
+            Depuis le menu "Playlists" ou depuis la page d'une playlist spécifique, cliquez simplement sur le bouton de synchronisation. YouSync se chargera automatiquement de télécharger les nouvelles musiques et de mettre à jour les métadonnées.
+          </p>
+        </section>
+
+        <!-- Télécharger une playlist -->
+        <section class="bg-white/5 p-8 rounded-xl">
+          <h2 class="text-2xl font-semibold mb-4">Comment télécharger une playlist ou un titre ?</h2>
+          <p class="text-gray-300">Deux options s'offrent à vous :</p>
+          <ul class="list-disc list-inside space-y-2 mt-4 text-gray-300">
+            <li>Cliquez sur le bouton de téléchargement situé sous le titre de la playlist pour télécharger l'intégralité de celle-ci.</li>
+            <li>Pour un titre spécifique, utilisez le bouton de téléchargement à côté du titre souhaité dans la liste des morceaux.</li>
+          </ul>
+        </section>
+
+        <!-- Supprimer une playlist -->
+        <section class="bg-white/5 p-8 rounded-xl">
+          <h2 class="text-2xl font-semibold mb-4">Comment supprimer une playlist ?</h2>
+          <ol class="space-y-4 text-gray-300">
+            <li>1. Localisez le dossier contenant la playlist sur votre ordinateur.</li>
+            <li>2. Supprimez le dossier.</li>
+            <li>3. Redémarrez YouSync.</li>
+            <li>4. Dans la fenêtre popup qui s'affiche, confirmez la suppression en cliquant sur "Delete playlist".</li>
+            <li>5. Pour libérer complètement l'espace disque, n'oubliez pas de vider votre corbeille.</li>
+          </ol>
+        </section>
+
+        <!-- Retrouver une playlist -->
+        <section class="bg-white/5 p-8 rounded-xl">
+          <h2 class="text-2xl font-semibold mb-4">Comment retrouver une playlist ?</h2>
+          <ol class="space-y-4 text-gray-300">
+            <li>1. Ouvrez le menu "Playlists".</li>
+            <li>2. Cliquez sur l'icône "+" dans le coin supérieur droit.</li>
+            <li>3. Naviguez jusqu'au dossier contenant votre playlist.</li>
+            <li>4. Sélectionnez le dossier pour réimporter la playlist dans YouSync.</li>
+          </ol>
+        </section>
+
+        <!-- Mise à jour -->
+        <section class="bg-white/5 p-8 rounded-xl">
+          <h2 class="text-2xl font-semibold mb-4">Comment mettre à jour YouSync ?</h2>
+          <ol class="space-y-4 text-gray-300">
+            <li>1. Téléchargez la dernière version depuis <a href="https://github.com/yourusername/yousync/releases/latest" class="text-primary hover:underline">notre page de téléchargement</a>.</li>
+            <li>2. Lancez le nouvel installeur YouSyncInstaller.exe.</li>
+            <li>3. L'application se mettra à jour automatiquement en préservant vos données et configurations.</li>
+          </ol>
+        </section>
+      </div>
+    </div>
+  </main>
+</Layout>
