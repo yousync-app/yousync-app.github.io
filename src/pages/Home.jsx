@@ -21,13 +21,13 @@ function Home() {
           </p>
           <div className="flex justify-center gap-4">
             <a
-              href="https://github.com/yourusername/yousync/releases/latest"
+              href="https://github.com/0m8y/YouSync/raw/refs/heads/main/YouSyncInstaller.exe"
               className="bg-gradient-to-r from-primary to-secondary text-white px-8 py-3 rounded-lg font-medium hover:opacity-90 transition"
             >
               Télécharger
             </a>
             <a
-              href="https://github.com/yourusername/yousync"
+              href="https://github.com/0m8y/YouSync/"
               className="bg-white/10 text-white px-8 py-3 rounded-lg font-medium hover:bg-white/20 transition"
             >
               Voir sur GitHub
